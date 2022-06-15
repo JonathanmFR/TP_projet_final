@@ -1,5 +1,3 @@
-
-
 CREATE DATABASE IF NOT EXISTS projetfs;
 
 -- Création d'un utilisateur mysql 
@@ -24,4 +22,16 @@ CREATE TABLE article (
     updated_at DATE, 
     id_utilisateur INT, 
     FOREIGN KEY (id_utilisateur) REFERENCES utilisateur(id)
+);
+
+CREATE TABLE avis (
+    id INT AUTO_INCREMENT PRIMARY KEY, 
+    titre VARCHAR(255),
+    corps TEXT, 
+    created_at DATE, 
+    updated_at DATE, 
+    id_article INT, 
+    id_auteur INT, 
+    FOREIGN KEY (id_article) REFERENCES article(id),
+    FOREIGN KEY (id_auteur) REFERENCES utilisateur(id)
 );

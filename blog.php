@@ -10,6 +10,8 @@
     <h1>Bienvenue sur mon blog</h1>
     <br>
     <a href="createArticle.php">Ajouter un article</a>
+    <a href="viewAvis.php">Tous mes avis</a>
+    <a href="dashboard.php">Panel d'administration des avis</a>
 
     <?php // Ajouter un bouton modifier l'article sur chaque article avec le titre de l'article
     session_start(); 

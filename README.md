@@ -18,3 +18,14 @@ Si l'utilisateur cique sur "Ajouter un article" il pourra ajouter un article en 
 
 Retour au blog nous pouvons voir l'aticle rajouter et que l'utilisateur peut modifier.
 Sur l'article qui a était rajouter une date de création de l'article a était inscrit et si nous cliquon sur l'article créé, le nom de la personne qui a mis l'article apparaît.
+
+L'utilisateur peut créer un avis sur chaque articles qui on était créé.
+On peut voir l'email et la date de l'avis.
+
+Il peut le modifier si il le souhaite et la date de modification passe de "Jamais" à la date de modification de l'avis.
+
+Un utilisateur ne peut pas modifier les autre avis si ce n'est pas lui qu'il a créé.
+
+L'utilisateur peut voir tout ces avis qu'il à écrit dans la page blog dans "Tous mes avis"
+
+L'utilisateur peut aussi voir si une personne lui a envoyé un avis sur l'un de ces articles, dans la page blog dans "Panel administration des avis"
